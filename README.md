@@ -94,6 +94,8 @@ print(df.isnull().sum())
 print("\nDataset Information:")
 print(df.info())
 
+---
+
 ## Expected Result
 The dataset should be successfully loaded into a Pandas DataFrame.
 The dataset shape is:
@@ -102,11 +104,15 @@ The first five and last five records can be displayed using:
 df.head()
 df.tail()
 
+---
+
 ## Dataset Source
 UCI Machine Learning Repository:
 https://archive.ics.uci.edu/dataset/53/iris⁠�
 CSV source:
 https://github.com/jbrownlee/Datasets/blob/master/iris.csv⁠�
+
+---
 
 ## Conclusion
 The Iris dataset was successfully loaded using Pandas.
