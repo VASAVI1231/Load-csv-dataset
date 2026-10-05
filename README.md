@@ -1,5 +1,3 @@
-# VEDA Technology AI & ML Internship – Task 16
-
 ## Load a CSV Dataset Using Pandas
 
 ### Project Overview
