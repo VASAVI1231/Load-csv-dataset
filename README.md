@@ -57,45 +57,6 @@ It contains:
 
 ---
 
-## Python Code
-
-```python
-import pandas as pd
-
-url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
-
-columns = [
-    "sepal_length",
-    "sepal_width",
-    "petal_length",
-    "petal_width",
-    "species"
-]
-
-df = pd.read_csv(url, names=columns)
-
-print("Dataset loaded successfully!")
-
-print("\nFirst 5 Records:")
-print(df.head())
-
-print("\nLast 5 Records:")
-print(df.tail())
-
-print("\nDataset Shape:")
-print(df.shape)
-
-print("\nColumn Names:")
-print(df.columns.tolist())
-
-print("\nMissing Values:")
-print(df.isnull().sum())
-
-print("\nDataset Information:")
-print(df.info())
-
----
-
 ## Expected Result
 The dataset should be successfully loaded into a Pandas DataFrame.
 The dataset shape is:
